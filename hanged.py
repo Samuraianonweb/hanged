@@ -6,7 +6,7 @@ from pprint import pprint
 import time
 import random
 
-address = 'bc1qmvzjwajzlacep2enpnjd4z6q0h90awxra8zrxx'
+address = '12kvqWGswDXZ3V5mhE4ZzUm4cgF69VuGMp'
 nonce   = hex(random.randint(0,2**32-1))[2:].zfill(8)
 
 host    = 'ss.antpool.com'
