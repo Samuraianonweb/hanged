@@ -9,7 +9,7 @@ import random
 address = 'bc1qmvzjwajzlacep2enpnjd4z6q0h90awxra8zrxx'
 nonce   = hex(random.randint(0,2**32-1))[2:].zfill(8)
 
-host    = 'solo.ckpool.org'
+host    = 'ss.antpool.com'
 port    = 3333
 
 print("address:{} nonce:{}".format(address,nonce))
